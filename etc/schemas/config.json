@@ -1,0 +1,14 @@
+{
+  "$id": "https://www.something.com/ads/config.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Configuration for ads",
+  "description": "",
+  "type": "object",
+  "allOf": [
+    { "$ref": "https://www.something.com/service/service.json" },
+    {
+      "properties": {},
+      "required": []
+    }
+  ]
+}
